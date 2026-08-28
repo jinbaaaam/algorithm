@@ -3,7 +3,6 @@
  	n*n 배열을 탐색하면서
  	m*m 배열의 합 중 max 출력
  */
- 
 import java.io.*;
 import java.util.*;
 class Solution
