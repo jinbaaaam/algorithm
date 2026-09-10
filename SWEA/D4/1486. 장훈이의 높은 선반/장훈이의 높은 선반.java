@@ -28,10 +28,10 @@ class Solution
         System.out.println(sb);
 	}
     public static void dfs(int idx, int sum)  {
+        if(sum>=S) {
+	        result=Math.min(result,sum-S);
+        }
         if(idx==N) {
-            if(sum>=S) {
-	            result=Math.min(result,sum-S);
-            }
             return;
         }
         dfs(idx+1, sum+arr[idx]);
